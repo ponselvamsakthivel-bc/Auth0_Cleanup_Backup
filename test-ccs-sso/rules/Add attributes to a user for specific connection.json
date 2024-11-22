@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "script": "./Add attributes to a user for specific connection.js",
+  "name": "Add attributes to a user for specific connection",
+  "order": 3,
+  "stage": "login_success"
+}

@@ -1,0 +1,77 @@
+{
+  "is_token_endpoint_ip_header_trusted": false,
+  "name": "Login Director",
+  "is_first_party": true,
+  "oidc_conformant": true,
+  "sso_disabled": false,
+  "cross_origin_auth": false,
+  "refresh_token": {
+    "expiration_type": "expiring",
+    "leeway": 0,
+    "infinite_token_lifetime": false,
+    "infinite_idle_token_lifetime": false,
+    "token_lifetime": 31557600,
+    "idle_token_lifetime": 2592000,
+    "rotation_type": "rotating"
+  },
+  "allowed_clients": [],
+  "callbacks": [
+    "http://localhost:2021/oauth/authorise",
+    "https://localhost:2021/oauth/authorise",
+    "https://dev.cat.crowncommercial.gov.uk/oauth/authorise",
+    "https://www.test.logindirector.crowncommercial.gov.uk/oauth/authorise",
+    "https://www.test.cat.crowncommercial.gov.uk/oauth/authorise",
+    "https://www.test.esourcing.crowncommercial.gov.uk/oauth/authorise",
+    "https://www.dev.logindirector.crowncommercial.gov.uk/oauth/authorise",
+    "https://www.dev.cat.crowncommercial.gov.uk/oauth/authorise",
+    "https://www.dev.esourcing.crowncommercial.gov.uk/oauth/authorise",
+    "https://oauth.pstmn.io/v1/callback",
+    "http://dev.cat.crowncommercial.gov.uk:2021/oauth/authorise",
+    "https://dev.cat.crowncommercial.gov.uk:2021/oauth/authorise",
+    "http://dev.esourcing.crowncommercial.gov.uk:2021/oauth/authorise",
+    "https://dev.esourcing.crowncommercial.gov.uk:2021/oauth/authorise",
+    "http://dev.logindirector.crowncommercial.gov.uk:2021/oauth/authorise",
+    "https://dev.logindirector.crowncommercial.gov.uk:2021/oauth/authorise",
+    "http://dev.cas.crowncommercial.gov.uk/oauth/authorise",
+    "https://dev.cas.crowncommercial.gov.uk/oauth/authorise",
+    "http://dev.esourcing.crowncommercial.gov.uk/oauth/authorise",
+    "https://dev.esourcing.crowncommercial.gov.uk/oauth/authorise",
+    "http://dev.logindirector.crowncommercial.gov.uk/oauth/authorise",
+    "https://dev.logindirector.crowncommercial.gov.uk/oauth/authorise",
+    "http://test.cas.crowncommercial.gov.uk/oauth/authorise",
+    "https://test.cas.crowncommercial.gov.uk/oauth/authorise",
+    "http://test.esourcing.crowncommercial.gov.uk/oauth/authorise",
+    "https://test.esourcing.crowncommercial.gov.uk/oauth/authorise",
+    "http://test.logindirector.crowncommercial.gov.uk/oauth/authorise",
+    "https://test.logindirector.crowncommercial.gov.uk/oauth/authorise",
+    "http://dev.contractawardservice.crowncommercial.gov.uk/oauth/authorise",
+    "https://dev.contractawardservice.crowncommercial.gov.uk/oauth/authorise",
+    "http://test.contractawardservice.crowncommercial.gov.uk/oauth/authorise",
+    "https://test.contractawardservice.crowncommercial.gov.uk/oauth/authorise"
+  ],
+  "native_social_login": {
+    "apple": {
+      "enabled": false
+    },
+    "facebook": {
+      "enabled": false
+    }
+  },
+  "cross_origin_authentication": true,
+  "jwt_configuration": {
+    "alg": "RS256",
+    "lifetime_in_seconds": 36000,
+    "secret_encoded": false
+  },
+  "client_aliases": [],
+  "token_endpoint_auth_method": "client_secret_post",
+  "app_type": "regular_web",
+  "grant_types": [
+    "authorization_code",
+    "refresh_token",
+    "password",
+    "http://auth0.com/oauth/grant-type/password-realm",
+    "implicit"
+  ],
+  "custom_login_page_on": true
+}

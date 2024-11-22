@@ -1,0 +1,30 @@
+{
+  "name": "saml-authorize-action",
+  "code": "actions\\saml-authorize-action\\code.js",
+  "runtime": "node18-actions",
+  "status": "built",
+  "dependencies": [
+    {
+      "name": "axios",
+      "version": "1.7.2"
+    }
+  ],
+  "secrets": [
+    {
+      "name": "TRAINLINE_DIGITS_CLIENT_ID"
+    },
+    {
+      "name": "SEC_API_URL"
+    },
+    {
+      "name": "SEC_API_KEY"
+    }
+  ],
+  "supported_triggers": [
+    {
+      "id": "post-login",
+      "version": "v3"
+    }
+  ],
+  "deployed": true
+}

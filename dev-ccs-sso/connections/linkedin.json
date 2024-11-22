@@ -1,0 +1,42 @@
+{
+  "options": {
+    "email": true,
+    "scope": [
+      "email",
+      "openid",
+      "profile"
+    ],
+    "openid": true,
+    "profile": true,
+    "client_id": "",
+    "basic_profile": true,
+    "client_secret": "",
+    "strategy_version": 3
+  },
+  "strategy": "linkedin",
+  "name": "linkedin",
+  "is_domain_connection": false,
+  "enabled_clients": [
+    "API Explorer Application",
+    "DashboardApp",
+    "Data Migration",
+    "Default App",
+    "DefaultApi (Test Application)",
+    "DemoApp",
+    "DemoSamlApp",
+    "Deploy CLI",
+    "Dev-Saml-App",
+    "DigiTS",
+    "DMBackgroundJob",
+    "Evidence Locker",
+    "Fleet Portal",
+    "Jaggaer",
+    "Login Director",
+    "ManagementAPI-DevAutomation",
+    "Migration_API",
+    "My App",
+    "RMI",
+    "SecurityApi",
+    "testapi (Test Application)"
+  ]
+}

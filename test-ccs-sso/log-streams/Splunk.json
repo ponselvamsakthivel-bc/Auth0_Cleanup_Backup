@@ -1,0 +1,12 @@
+{
+  "name": "Splunk",
+  "type": "splunk",
+  "status": "active",
+  "sink": {
+    "splunkDomain": "http-inputs-ccs.splunkcloud.com",
+    "splunkPort": "443",
+    "splunkToken": "_VALUE_NOT_SHOWN_",
+    "splunkSecure": true
+  },
+  "isPriority": false
+}

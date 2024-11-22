@@ -1,0 +1,12 @@
+{
+  "name": "custom-sms-mfa",
+  "script": "./custom-sms-mfa.js",
+  "dependencies": {},
+  "enabled": false,
+  "triggerId": "send-phone-message",
+  "secrets": {
+    "TEMPLATE_ID": "_VALUE_NOT_SHOWN_",
+    "XAPI_KEY": "_VALUE_NOT_SHOWN_",
+    "TEST_URL": "_VALUE_NOT_SHOWN_"
+  }
+}

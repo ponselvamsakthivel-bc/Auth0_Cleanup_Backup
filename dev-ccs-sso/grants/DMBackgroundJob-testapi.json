@@ -1,0 +1,10 @@
+{
+  "client_id": "DMBackgroundJob",
+  "audience": "https://testapi",
+  "scope": [
+    "UserCreate",
+    "OrgCreate",
+    "OrgUpdate",
+    "UserUpdate"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "mfa-custom-attribute-action",
+  "code": "actions\\mfa-custom-attribute-action\\code.js",
+  "runtime": "node18-actions",
+  "status": "built",
+  "dependencies": [],
+  "secrets": [],
+  "supported_triggers": [
+    {
+      "id": "post-login",
+      "version": "v3"
+    }
+  ],
+  "deployed": true
+}

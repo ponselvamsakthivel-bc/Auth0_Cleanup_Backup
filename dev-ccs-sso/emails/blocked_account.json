@@ -1,0 +1,10 @@
+{
+  "syntax": "liquid",
+  "body": "./blocked_account.html",
+  "from": "no-reply@crowncommercial.gov.uk",
+  "subject": "Account Blocked",
+  "resultUrl": "https://dev.sso.conclave.crowncommercial.gov.uk",
+  "urlLifetimeInSeconds": 432000,
+  "template": "blocked_account",
+  "enabled": true
+}

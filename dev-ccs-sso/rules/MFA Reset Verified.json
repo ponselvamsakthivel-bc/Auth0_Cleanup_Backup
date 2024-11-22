@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "script": "./MFA Reset Verified.js",
+  "name": "MFA Reset Verified",
+  "order": 2,
+  "stage": "login_success"
+}

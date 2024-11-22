@@ -1,0 +1,28 @@
+{
+  "default_audience": "",
+  "default_directory": "Username-Password-Authentication",
+  "enabled_locales": [
+    "en"
+  ],
+  "flags": {
+    "enable_custom_domain_in_emails": true,
+    "revoke_refresh_token_grant": false,
+    "mfa_show_factor_list_on_enrollment": true,
+    "disable_clickjack_protection_headers": false
+  },
+  "friendly_name": "Public Procurement Gateway - Development",
+  "idle_session_lifetime": 1,
+  "sandbox_version": "12",
+  "session_lifetime": 2,
+  "support_email": "info@crowncommercial.gov.uk",
+  "support_url": "https://www.crowncommercial.gov.uk/contact",
+  "universal_login": {
+    "colors": {
+      "page_background": "#FFFFFF",
+      "primary": "#007E8A"
+    },
+    "passwordless": {
+      "allow_magiclink_verify_without_session": true
+    }
+  }
+}

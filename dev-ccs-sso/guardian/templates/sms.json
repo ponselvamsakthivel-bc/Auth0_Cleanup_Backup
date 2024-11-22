@@ -1,0 +1,5 @@
+{
+  "name": "sms",
+  "enrollment_message": "your 6-digit access code is {{code}}. Your code expires in 5 minutes.",
+  "verification_message": "your 6-digit access code is {{code}}. Your code expires in 5 minutes."
+}

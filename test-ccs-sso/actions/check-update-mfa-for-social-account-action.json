@@ -1,0 +1,27 @@
+{
+  "name": "check-update-mfa-for-social-account-action",
+  "code": "actions\\check-update-mfa-for-social-account-action\\code.js",
+  "runtime": "node18-actions",
+  "status": "built",
+  "dependencies": [
+    {
+      "name": "axios",
+      "version": "0.22.0"
+    }
+  ],
+  "secrets": [
+    {
+      "name": "USER_API_URL"
+    },
+    {
+      "name": "USER_API_KEY"
+    }
+  ],
+  "supported_triggers": [
+    {
+      "id": "post-login",
+      "version": "v3"
+    }
+  ],
+  "deployed": true
+}

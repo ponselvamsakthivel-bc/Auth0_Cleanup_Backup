@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "script": "./SessionID.js",
+  "name": "SessionID",
+  "order": 8,
+  "stage": "login_success"
+}

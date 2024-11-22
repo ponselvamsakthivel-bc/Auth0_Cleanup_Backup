@@ -1,0 +1,12 @@
+{
+  "name": "Azure Event Grid",
+  "type": "eventgrid",
+  "status": "active",
+  "sink": {
+    "azureSubscriptionId": "b1416642-757f-47a4-9992-7ab7a097f641",
+    "azureRegion": "uksouth",
+    "azureResourceGroup": "AzT-UKS-EventGrid",
+    "azurePartnerTopic": "auth0-test-ccs-sso-TvHv45TYIo"
+  },
+  "isPriority": false
+}

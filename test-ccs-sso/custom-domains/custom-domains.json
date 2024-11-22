@@ -1,0 +1,17 @@
+[
+  {
+    "domain": "auth.test.identify.crowncommercial.gov.uk",
+    "primary": true,
+    "status": "ready",
+    "type": "auth0_managed_certs",
+    "verification": {
+      "methods": [
+        {
+          "name": "cname",
+          "record": "test-ccs-sso-cd-w6m6irbt6i4xszmf.edge.tenants.eu.auth0.com"
+        }
+      ]
+    },
+    "tls_policy": "recommended"
+  }
+]

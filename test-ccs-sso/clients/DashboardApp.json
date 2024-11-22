@@ -1,0 +1,68 @@
+{
+  "is_token_endpoint_ip_header_trusted": false,
+  "name": "DashboardApp",
+  "is_first_party": true,
+  "oidc_conformant": true,
+  "sso_disabled": false,
+  "cross_origin_auth": false,
+  "refresh_token": {
+    "expiration_type": "expiring",
+    "leeway": 0,
+    "token_lifetime": 7200,
+    "idle_token_lifetime": 3600,
+    "infinite_token_lifetime": false,
+    "infinite_idle_token_lifetime": false,
+    "rotation_type": "rotating"
+  },
+  "allowed_clients": [],
+  "allowed_logout_urls": [
+    "https://test-ccs-sso.london.cloudapps.digital",
+    "http://test-ccs-sso.london.cloudapps.digital",
+    "http://localhost:4200",
+    "https://test.identify.crowncommercial.gov.uk",
+    "http://test-alb-frontend-527952456.eu-west-2.elb.amazonaws.com",
+    "https://test-ppg-sso.crowncommercial.gov.uk"
+  ],
+  "callbacks": [
+    "https://test-ccs-sso.london.cloudapps.digital/authsuccess",
+    "http://test-ccs-sso.london.cloudapps.digital/authsuccess",
+    "http://localhost:4200/authsuccess",
+    "https://test.identify.crowncommercial.gov.uk/authsuccess",
+    "http://localhost:4200",
+    "http://test-alb-frontend-527952456.eu-west-2.elb.amazonaws.com/authsuccess",
+    "https://test-ppg-sso.crowncommercial.gov.uk/authsuccess",
+    "https://oauth.pstmn.io/v1/browser-callback",
+    "https://oauth.pstmn.io/v1/callback",
+    "https://test.identify.crowncommercial.gov.uk/mfa-selection",
+    "https://test.identify.crowncommercial.gov.uk/aws/mfa-selection"
+  ],
+  "native_social_login": {
+    "apple": {
+      "enabled": false
+    },
+    "facebook": {
+      "enabled": false
+    }
+  },
+  "initiate_login_uri": "https://test.identify.crowncommercial.gov.uk",
+  "cross_origin_authentication": true,
+  "jwt_configuration": {
+    "alg": "RS256",
+    "lifetime_in_seconds": 900,
+    "secret_encoded": false
+  },
+  "client_aliases": [],
+  "token_endpoint_auth_method": "none",
+  "app_type": "spa",
+  "grant_types": [
+    "authorization_code",
+    "refresh_token",
+    "password",
+    "http://auth0.com/oauth/grant-type/password-realm",
+    "implicit",
+    "http://auth0.com/oauth/grant-type/mfa-oob",
+    "http://auth0.com/oauth/grant-type/mfa-otp",
+    "http://auth0.com/oauth/grant-type/mfa-recovery-code"
+  ],
+  "custom_login_page_on": true
+}

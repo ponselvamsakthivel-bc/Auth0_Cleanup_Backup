@@ -1,0 +1,14 @@
+{
+  "name": "dev-mfa-sms-hook",
+  "script": "./dev-mfa-sms-hook.js",
+  "dependencies": {
+    "axios": "1.6.7"
+  },
+  "enabled": false,
+  "triggerId": "send-phone-message",
+  "secrets": {
+    "TEMPLATE_ID": "_VALUE_NOT_SHOWN_",
+    "XAPI_KEY": "_VALUE_NOT_SHOWN_",
+    "DEV_URL": "_VALUE_NOT_SHOWN_"
+  }
+}

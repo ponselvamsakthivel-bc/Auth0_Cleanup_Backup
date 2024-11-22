@@ -1,0 +1,30 @@
+{
+  "name": "mfa-sms-action",
+  "code": "actions\\mfa-sms-action\\code.js",
+  "runtime": "node18-actions",
+  "status": "built",
+  "dependencies": [
+    {
+      "name": "axios",
+      "version": "1.7.2"
+    }
+  ],
+  "secrets": [
+    {
+      "name": "TEMPLATE_ID"
+    },
+    {
+      "name": "NOTIFICATION_API_URL"
+    },
+    {
+      "name": "NOTIFICATION_API_KEY"
+    }
+  ],
+  "supported_triggers": [
+    {
+      "id": "send-phone-message",
+      "version": "v2"
+    }
+  ],
+  "deployed": true
+}

@@ -1,0 +1,10 @@
+{
+  "syntax": "liquid",
+  "body": "./blocked_account.html",
+  "from": "",
+  "subject": "",
+  "resultUrl": "http://test-ccs-sso.london.cloudapps.digital",
+  "urlLifetimeInSeconds": 432000,
+  "template": "blocked_account",
+  "enabled": true
+}

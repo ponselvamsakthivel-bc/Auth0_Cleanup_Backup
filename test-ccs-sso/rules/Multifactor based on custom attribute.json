@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "script": "./Multifactor based on custom attribute.js",
+  "name": "Multifactor based on custom attribute",
+  "order": 4,
+  "stage": "login_success"
+}

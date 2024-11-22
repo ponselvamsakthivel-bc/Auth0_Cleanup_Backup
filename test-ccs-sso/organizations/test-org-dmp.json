@@ -1,0 +1,16 @@
+{
+  "name": "test-org-dmp",
+  "display_name": "DMP",
+  "branding": {
+    "logo_url": "https://www.brickendon.com/wp-content/uploads/2021/04/Logo.svg"
+  },
+  "connections": [
+    {
+      "name": "Username-Password-Authentication",
+      "assign_membership_on_login": true,
+      "is_signup_enabled": false,
+      "show_as_button": true
+    }
+  ],
+  "client_grants": []
+}

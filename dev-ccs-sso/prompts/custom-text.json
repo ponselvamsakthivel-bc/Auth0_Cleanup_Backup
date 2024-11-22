@@ -1,0 +1,9 @@
+{
+  "en": {
+    "mfa-otp": {
+      "mfa-otp-challenge": {
+        "transaction-not-found": "Your enrollment transaction expired, you will need to start again custom."
+      }
+    }
+  }
+}

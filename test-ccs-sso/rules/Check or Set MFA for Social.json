@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "script": "./Check or Set MFA for Social.js",
+  "name": "Check or Set MFA for Social",
+  "order": 8,
+  "stage": "login_success"
+}

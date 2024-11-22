@@ -1,0 +1,12 @@
+{
+  "client_id": "ManagementAPI-DevAutomation",
+  "audience": "https://dev-ccs-sso.eu.auth0.com/api/v2/",
+  "scope": [
+    "read:users",
+    "update:users",
+    "create:users",
+    "create:passwords_checking_job",
+    "delete:passwords_checking_job",
+    "update:mfa_policies"
+  ]
+}

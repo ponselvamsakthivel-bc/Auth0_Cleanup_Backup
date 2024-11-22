@@ -1,0 +1,36 @@
+{
+  "post-login": [
+    {
+      "action_name": "add-attributes-in-token-action",
+      "display_name": "add-attributes-in-token-action"
+    },
+    {
+      "action_name": "mfa-custom-attribute-action",
+      "display_name": "mfa-custom-attribute-action"
+    },
+    {
+      "action_name": "saml-authorize-action",
+      "display_name": "saml-authorize-action"
+    },
+    {
+      "action_name": "add-analytics-attributes-in-token-action",
+      "display_name": "add-analytics-attributes-in-token-action"
+    },
+    {
+      "action_name": "check-update-mfa-for-social-account-action",
+      "display_name": "check-update-mfa-for-social-account-action"
+    }
+  ],
+  "post-change-password": [
+    {
+      "action_name": "post-change-password-action",
+      "display_name": "post-change-password-action"
+    }
+  ],
+  "send-phone-message": [
+    {
+      "action_name": "mfa-sms-action",
+      "display_name": "mfa-sms-action"
+    }
+  ]
+}

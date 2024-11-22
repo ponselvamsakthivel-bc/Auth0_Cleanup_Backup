@@ -1,0 +1,92 @@
+{
+  "is_token_endpoint_ip_header_trusted": false,
+  "name": "Evidence Locker",
+  "is_first_party": true,
+  "oidc_conformant": true,
+  "sso_disabled": false,
+  "cross_origin_auth": false,
+  "refresh_token": {
+    "expiration_type": "expiring",
+    "leeway": 0,
+    "infinite_token_lifetime": false,
+    "infinite_idle_token_lifetime": false,
+    "token_lifetime": 2592000,
+    "idle_token_lifetime": 129000,
+    "rotation_type": "rotating"
+  },
+  "allowed_clients": [],
+  "allowed_logout_urls": [
+    "https://dev-conclave-c8.nqc.com:3001",
+    "http://localhost:4200",
+    "https://elocker-frontend-sandbox.london.cloudapps.digital",
+    "https://elocker-frontend-uat.london.cloudapps.digital",
+    "https://elocker-frontend-development.london.cloudapps.digital",
+    "https://elocker-frontend-pre-production.london.cloudapps.digital",
+    "https://elocker-frontend-preprod.london.cloudapps.digital",
+    "https://elocker-frontend-testing.london.cloudapps.digital",
+    "https://dev-conclave-c8.nqc.com:3002/",
+    "https://dev-conclave-c8.nqc.com:3003",
+    "https://dev-conclave-c8.nqc.com:3006",
+    "https://elocker-frontend-sandbox-app.london.cloudapps.digital/",
+    "https://dev-conclave-rh8.nqc.com:3002",
+    "https://dev-conclave-rh8.nqc.com:3003",
+    "https://dev-conclave-rh8.nqc.com:3006",
+    "https://dev-conclave-rh8.nqc.com:3008",
+    "https://dev-conclave-rh8.nqc.com:3010",
+    "https://dev-conclave-rh8.nqc.com:3012"
+  ],
+  "callbacks": [
+    "http://localhost:4200/authsuccess",
+    "https://dev-conclave-c8.nqc.com:3001/api/auth",
+    "https://elocker-frontend-sandbox.london.cloudapps.digital/api/auth",
+    "https://elocker-frontend-uat.london.cloudapps.digital/api/auth",
+    "https://elocker-frontend-sandbox.london.cloudapps.digital",
+    "https://elocker-frontend-uat.london.cloudapps.digital",
+    "https://elocker-frontend-development.london.cloudapps.digital",
+    "https://elocker-frontend-pre-production.london.cloudapps.digital",
+    "https://dev-conclave-c8.nqc.com:3003",
+    "https://dev-conclave-c8.nqc.com:3006",
+    "https://elocker-frontend-preprod.london.cloudapps.digital/api/auth",
+    "https://elocker-frontend-preprod.london.cloudapps.digital",
+    "https://elocker-frontend-testing.london.cloudapps.digital/api/auth",
+    "https://dev-conclave-c8.nqc.com:3002/api/auth",
+    "https://dev-conclave-c8.nqc.com:3003/api/auth",
+    "https://dev-conclave-c8.nqc.com:3006/api/auth",
+    "https://elocker-frontend-sandbox-app.london.cloudapps.digital/api/auth",
+    "https://dev-conclave-rh8.nqc.com:3002/api/auth",
+    "https://dev-conclave-rh8.nqc.com:3003/api/auth",
+    "https://dev-conclave-rh8.nqc.com:3006/api/auth",
+    "https://dev-conclave-rh8.nqc.com:3008/api/auth",
+    "https://dev-conclave-rh8.nqc.com:3010/api/auth",
+    "https://dev-conclave-rh8.nqc.com:3012/api/auth",
+    "https://elocker-frontend-development.london.cloudapps.digital/api/auth",
+    "https://dev-conclave-rh8.nqc.com:3008/api/auth/callback/ppg"
+  ],
+  "native_social_login": {
+    "apple": {
+      "enabled": false
+    },
+    "facebook": {
+      "enabled": false
+    }
+  },
+  "initiate_login_uri": "https://elocker-frontend-development.london.cloudapps.digital",
+  "cross_origin_authentication": true,
+  "jwt_configuration": {
+    "alg": "RS256",
+    "lifetime_in_seconds": 36000,
+    "secret_encoded": false
+  },
+  "client_aliases": [],
+  "token_endpoint_auth_method": "client_secret_post",
+  "app_type": "regular_web",
+  "grant_types": [
+    "authorization_code",
+    "implicit",
+    "refresh_token",
+    "password",
+    "http://auth0.com/oauth/grant-type/password-realm",
+    "client_credentials"
+  ],
+  "custom_login_page_on": true
+}

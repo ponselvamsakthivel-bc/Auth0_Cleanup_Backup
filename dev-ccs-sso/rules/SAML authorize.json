@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "script": "./SAML authorize.js",
+  "name": "SAML authorize",
+  "order": 6,
+  "stage": "login_success"
+}

@@ -1,0 +1,37 @@
+{
+  "options": {
+    "email": true,
+    "scope": [
+      "r_emailaddress",
+      "r_liteprofile"
+    ],
+    "profile": true,
+    "client_id": "",
+    "basic_profile": false,
+    "client_secret": "",
+    "strategy_version": 2
+  },
+  "strategy": "linkedin",
+  "name": "linkedin",
+  "is_domain_connection": false,
+  "enabled_clients": [
+    "API Explorer Application",
+    "CAAC",
+    "DashboardApp",
+    "Data Migration",
+    "DefaultApi (Test Application)",
+    "DemoSamlApp",
+    "Deploy CLI",
+    "DigiTS",
+    "Evidence Locker",
+    "Fleet Portal",
+    "Jaggaer",
+    "Login Director",
+    "ManagementAPI",
+    "ManagementAPI",
+    "ManagementAPI",
+    "My App",
+    "RMI",
+    "TestApp"
+  ]
+}

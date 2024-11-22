@@ -1,0 +1,82 @@
+{
+  "is_token_endpoint_ip_header_trusted": false,
+  "name": "DashboardApp",
+  "is_first_party": true,
+  "oidc_conformant": true,
+  "sso_disabled": false,
+  "cross_origin_auth": false,
+  "refresh_token": {
+    "expiration_type": "expiring",
+    "leeway": 0,
+    "token_lifetime": 7200,
+    "idle_token_lifetime": 3600,
+    "infinite_token_lifetime": false,
+    "infinite_idle_token_lifetime": false,
+    "rotation_type": "rotating"
+  },
+  "allowed_clients": [],
+  "allowed_logout_urls": [
+    "http://localhost:4200",
+    "https://dev.identify.crowncommercial.gov.uk",
+    "https://dev-ccs-sso.london.cloudapps.digital",
+    "https://dev.sso.conclave.crowncommercial.gov.uk",
+    "http://dev-alb-frontend-1521951989.eu-west-2.elb.amazonaws.com",
+    "https://dev.identify.crowncommercial.gov.uk/aws",
+    "https://dev-ppg-sso.crowncommercial.gov.uk",
+    "https://dev.ppg-sso-service.crowncommercial.gov.uk/oidc"
+  ],
+  "callbacks": [
+    "https://oauth.pstmn.io/v1/callback",
+    "https://dev.sso.conclave.crowncommercial.gov.uk/authsuccess",
+    "https://dev-ccs-sso.london.cloudapps.digital/authsuccess",
+    "https://dev1-ccs-sso.london.cloudapps.digital/authsuccess",
+    "http://localhost:4200/authsuccess",
+    "http://localhost:4200/aws/authsuccess",
+    "https://dev.identify.crowncommercial.gov.uk/authsuccess",
+    "http://localhost:4200",
+    "http://localhost:4200/aws",
+    "http://dev-alb-frontend-1521951989.eu-west-2.elb.amazonaws.com/authsuccess",
+    "https://dev.identify.crowncommercial.gov.uk/aws/authsuccess",
+    "https://dev-ppg-sso.crowncommercial.gov.uk/authsuccess",
+    "http://localhost:4200/mfatestsuccess",
+    "http://localhost:4200/mockservicelogin",
+    "http://localhost:4200/event-handler",
+    "https://dev.identify.crowncommercial.gov.uk/event-handler",
+    "https://dev.identify.crowncommercial.gov.uk/aws/event-handler",
+    "http://localhost:4200/mfa-selection",
+    "https://dev.identify.crowncommercial.gov.uk/mfa-selection",
+    "https://dev.identify.crowncommercial.gov.uk/aws/mfa-selection",
+    "https://dev.ppg-sso-service.crowncommercial.gov.uk/oidc/auth/authsuccess",
+    "https://dev.ppg-sso-service.crowncommercial.gov.uk/oidc/authsuccess"
+  ],
+  "native_social_login": {
+    "apple": {
+      "enabled": false
+    },
+    "facebook": {
+      "enabled": false
+    }
+  },
+  "initiate_login_uri": "https://dev.identify.crowncommercial.gov.uk",
+  "organization_require_behavior": "no_prompt",
+  "cross_origin_authentication": true,
+  "jwt_configuration": {
+    "alg": "RS256",
+    "lifetime_in_seconds": 900,
+    "secret_encoded": false
+  },
+  "client_aliases": [],
+  "token_endpoint_auth_method": "none",
+  "app_type": "spa",
+  "grant_types": [
+    "authorization_code",
+    "refresh_token",
+    "password",
+    "http://auth0.com/oauth/grant-type/password-realm",
+    "implicit",
+    "http://auth0.com/oauth/grant-type/mfa-oob",
+    "http://auth0.com/oauth/grant-type/mfa-otp",
+    "http://auth0.com/oauth/grant-type/mfa-recovery-code"
+  ],
+  "custom_login_page_on": true
+}
